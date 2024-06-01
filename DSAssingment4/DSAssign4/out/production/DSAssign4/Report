@@ -1,0 +1,31 @@
+Answer for number 3
+    a)  Failure Due to Unsorted Array
+        - Example:
+        int[] nums = {5, 2, 9, 1, 7, 3};
+        int target = 3;
+
+        int result = binarySearch(nums, target);
+
+        In this case, the mid value of the nums is greater than our target(3) so the program will focus on
+        the left side of the where our target is not there. So it will return -1 even though 3 is in nums list.
+    b) Failure Due to Target Smaller than Any Element
+        - int[] nums = {4, 8, 12, 16, 20};
+          int target = 2;
+
+          int result = binarySearch(nums, target);
+
+          the binary search algorithm will keep narrowing the search range,
+          eventually considering only the elements greater than the target, resulting in a failure to find the target.
+    c) Failure Due to Target Greater than Any Element
+        - Example:
+            int[] nums = {4, 8, 12, 16, 20};
+            int target = 25;
+
+            int result = binarySearch(nums, target);
+
+            In this case, the binary search algorithm will again keep narrowing the search range,
+            eventually considering only the elements smaller than the target, leading to a failure to find the target
+I accomplished the task.
+The most hardest task was making x^n method. Because I had to make it recursively it was hard to keep x
+and multiplying it with the original x value.
+
