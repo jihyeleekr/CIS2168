@@ -1,0 +1,7 @@
+I have finished the assignment.
+ It was quite challenging, especially when working on the merge sort.
+ I found myself puzzled about whether I should create a new array each time I divide the original array in half.
+ As for pivot sort, which is similar to quicksort, I ended up using a different approach compared to the one we saw in the lecture slides.
+ Printing out the steps in an understandable manner also proved to be a bit tricky, but Professor said it is okay even if it does not show each soring steps
+ unless it returns the correct sorted array.
+Nevertheless, I believe this assignment provided excellent practice in comprehending various sorting algorithms.

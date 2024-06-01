@@ -1,0 +1,4 @@
+Task3:
+1) Dijkstra's Algorithm: O(V^2) because my algorithm check every vertices then calculate 
+the shortest path.
+2) Topological Sort Algorithm: O(V^2) also for the same reason.

@@ -1,0 +1,13 @@
+Report:
+
+Completing this coding assignment proved to be quite challenging, but I successfully accomplished the tasks. While I had a theoretical understanding of Dijkstra's Algorithm and Topological Sort, translating that knowledge into actual code presented its own set of challenges.
+
+I faced uncertainties in implementing Dijkstra's Algorithm and Topological Sort, 
+especially when dealing with cycle detection in the latter. Seeking assistance from a TA was crucial,
+ and their suggestion to modify the code to detect cycles, delete the problematic edge, 
+ and then return the topological order was immensely helpful.
+ This approach significantly improved my code as the previous version only indicated cycle detection without providing the desired order.
+
+The time complexity of both algorithms in my code is O(V^2). 
+Recognizing the potential for improvement, I acknowledge that using a Priority Queue could have enhanced the complexity. 
+Overall, this assignment deepened my understanding of these algorithms and the nuances of translating theoretical knowledge into practical code.

@@ -1,0 +1,5 @@
+While tackling this assignment, I leveraged some code from a linked list project.
+Just as in the linked list assignment, I constructed nodes, which are now referred to as tree nodes in this context.
+Subsequently, I established a Binary Search Tree (BST) class, assigning roots and incorporating all the necessary methods within it.
+Furthermore, I tackled the extra credit component by implementing the following equation: height = 1 + max(Left Subtree, Right Subtree),
+and I also implemented a method for finding subtree size.
