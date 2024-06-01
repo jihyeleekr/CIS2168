@@ -1,0 +1,8 @@
+Assignment 3 Report
+1) The program is completed.
+2) Because the input string is in infix form I made the function which converts infix to postfix.
+    - Create the stack which stores the operators
+    - Check each characters in infix then put the numbers in postfix
+    - Use while loop and if statements to figure out ()'s
+3) Then do the calculation by using postfix.
+4) I think there is better way to calculating postfix, but I am not sure how can I improve current code.
